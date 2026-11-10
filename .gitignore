@@ -1,0 +1,16 @@
+# Environment and credential files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+secrets/
+
+# Common local/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

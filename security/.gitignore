@@ -1,0 +1,7 @@
+# Reference ignore rules for local tooling in this folder.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
